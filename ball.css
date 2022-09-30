@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+canvas{
+    background-color: var(--background-color);
+    display: block;
+    border:1px solid #a5a5a5;
+    margin: 0 auto;
+}
+:root{
+    --hue: 200;
+    --saturation: 50%;
+    --foreground-color: hsl(var(--hue), var(--saturation), 75%);
+    --background-color: hsl(var(--hue), var(--saturation), 20%);}
